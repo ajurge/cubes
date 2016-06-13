@@ -1,3 +1,7 @@
+# Happy Cube Solver
+ See [Happy Cube website](http://www.happycube.com/) and [Wikipedia](https://en.wikipedia.org/wiki/Happy_Cube) 
+ for more details about Happy Cube.
+
 ### Instructions
 Project should be built and run using Java 1.8.
 
