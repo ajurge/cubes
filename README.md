@@ -58,4 +58,5 @@ Happy Cube pieces in input files.
                  ooooo
 
 
-[![Build Status](https://travis-ci.org/ajurge/cubes.svg?branch=master)](https://travis-ci.org/ajurge/cubes)           
+[![Build Status](https://travis-ci.org/ajurge/cubes.svg?branch=master)](https://travis-ci.org/ajurge/cubes)
+[![codecov](https://codecov.io/gh/ajurge/cubes/branch/master/graph/badge.svg)](https://codecov.io/gh/ajurge/cubes)      
