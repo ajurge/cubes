@@ -14,9 +14,11 @@ public class ParametersTest {
     public void testAllParametersClassFieldsAreFinal(){
         //Loop trough all the fields and prove they are declared as final.
         for(Field field : Parameters.class.getDeclaredFields()){
-            assertTrue(String.format(
-                    "%s class field %s must be declared as final!", Parameters.class.getSimpleName(), field.getName()),
-                    Modifier.isFinal(field.getModifiers()));
+            if (!field.isSynthetic()){
+                assertTrue(String.format(
+                        "%s class field %s must be declared as final!", Parameters.class.getSimpleName(), field.getName()),
+                        Modifier.isFinal(field.getModifiers()));
+            }
         }
     }
 
