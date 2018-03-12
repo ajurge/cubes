@@ -37,6 +37,14 @@
         <developerConnection>scm:git:git@github.com/ajurge/cubes.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-ajurge-com.bipinet.cubes</id>
+            <name>ajurge-com.bipinet.cubes</name>
+            <url>https://api.bintray.com/maven/ajurge/com.bipinet.cubes/cubes/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.java.source>1.8</project.java.source>
