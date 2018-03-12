@@ -17,7 +17,7 @@ import java.util.Collections;
  *
  <p> Happy Cube piece representation,  edge marking and direction.   
  <pre>  
- *                    --->
+ *                    {@code --->}
  *
  *                    TOP (1)
  *                   ooooo         
@@ -28,7 +28,7 @@ import java.util.Collections;
  *
  *                   BOTTOM (3)
  *                
- *                   --->
+ *                   {@code --->}
  *                
  </pre>
  * 

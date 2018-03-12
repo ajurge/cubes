@@ -15,7 +15,7 @@ public interface Edge {
 
     /**
      * Get the string representation of the edge pattern.
-     * @return
+     * @return string
      */
     String getPattern();
 

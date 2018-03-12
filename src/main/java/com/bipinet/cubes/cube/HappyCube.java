@@ -271,7 +271,7 @@ public class HappyCube extends AbstractCube {
 
     /**
      * Main method to initialise the cube.
-     * @param args
+     * @param args args
      */
     public static void main(String[] args) {
         for (Map.Entry<String, String> happyCubeFiles : Parameters.HAPPY_CUBE_FILE_NAMES.entrySet()){

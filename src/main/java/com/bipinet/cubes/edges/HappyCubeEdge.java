@@ -6,9 +6,9 @@ package com.bipinet.cubes.edges;
  <p> Happy Cube edge marking and direction.   
  <pre>  
  *     
- *     Tail of the arrow marks the start corner ----> head of the arrow marks the end corner
+ *     Tail of the arrow marks the start corner {@code --->} head of the arrow marks the end corner
  *     
- *                     --->
+ *                     {@code --->}
  *
  *                    TOP (1)
  *                   ooooo         
@@ -19,7 +19,7 @@ package com.bipinet.cubes.edges;
  *
  *                   BOTTOM (3)
  *
- *                   --->
+ *                   {@code --->}
  *
  </pre>
  *

@@ -10,7 +10,7 @@ import com.bipinet.cubes.pieces.Piece;
  *
  <p> Happy Cube edge marking and direction.   
  <pre>  
- *                    --->
+ *                    {@code --->}
  *
  *                    TOP (1)
  *                   ooooo         
@@ -21,7 +21,7 @@ import com.bipinet.cubes.pieces.Piece;
  *
  *                   BOTTOM (3)
  *
- *                   --->
+ *                   {@code --->}
  *
  </pre>
  *

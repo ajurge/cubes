@@ -12,7 +12,7 @@ import com.bipinet.cubes.sides.Sides;
  */
 public interface Piece {
     /**
-     * Rotate the piece by 90 degreees clockwise.
+     * Rotate the piece by 90 degrees clockwise.
      */
     void rotate();
 
@@ -53,6 +53,7 @@ public interface Piece {
 
     /**
      * Print the piece as {@link String} with the passed in offset.
+     * @param offset string with offset
      * @return String representation of the piece.
      */
     String printWithOffset(String offset);

@@ -11,6 +11,7 @@ public abstract class AbstractCubeEdge implements Edge {
 
     /**
      * Constructor to instantiate {@link AbstractCubeEdge} with a pattern.
+     * @param pattern string with pattern
      */
     public AbstractCubeEdge(String pattern) {
         this.pattern = pattern;
