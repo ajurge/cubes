@@ -35,6 +35,7 @@
         <url>https://github.com/ajurge/cubes</url>
         <connection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/cubes.git</connection>
         <developerConnection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/cubes.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
