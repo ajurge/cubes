@@ -1,7 +1,7 @@
 language: java
 jdk: oraclejdk8
 install: true
-script: ./mvnw clean install
+script: if [ "$PERFORM_RELEASE" = "release" ]; then ./release.sh $RELEASE_VERSION $DEVELOPMENT_VERSION; else ./mvnw clean install; fi
 cache:
   directories:
   - $HOME/.m2
