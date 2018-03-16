@@ -31,7 +31,7 @@ validate_version $DEVELOPMENT_VERSION
 git checkout master &&
 git pull &&
 
-if [ $(git tag -l "$RELEASE_VERSION") ]
+if [ $(git tag -l "cubes-$RELEASE_VERSION") ]
     then
         echo "Version $RELEASE_VERSION already exists. Release aborted!"
         exit 1
