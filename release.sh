@@ -28,4 +28,5 @@ validate_version () {
 validate_version $RELEASE_VERSION
 validate_version $DEVELOPMENT_VERSION
 
-echo -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVELOPMENT_VERSION-SNAPSHOT
+git checkout master && echo -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVELOPMENT_VERSION-SNAPSHOT
+#git checkout master && ./mvnw --settings settings.xml -B release:clean release:prepare release:perform -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVELOPMENT_VERSION-SNAPSHOT
