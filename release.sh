@@ -37,4 +37,5 @@ if [ $(git tag -l "cubes-$RELEASE_VERSION") ]
         exit 1
 fi
 
-./mvnw --settings settings.xml -B release:clean release:prepare release:perform -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVELOPMENT_VERSION-SNAPSHOT
+./mvnw --settings settings.xml -B release:clean release:prepare release:perform -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVELOPMENT_VERSION-SNAPSHOT &&
+. ./sync-version-artifacts-to-maven-central.sh

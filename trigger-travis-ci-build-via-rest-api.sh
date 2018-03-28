@@ -6,6 +6,7 @@
 #        - PERFORM_RELEASE=release
 #        - RELEASE_VERSION="<MAJOR.MINOR.PATCH>"
 #        - DEVELOPMENT_VERSION="<MAJOR.MINOR.PATCH>"
+#        - CLOSE_SONATYPE_STAGING="1"
 
 if [ -z "$1" ]
   then
@@ -37,7 +38,8 @@ BODY='{
      "global": {
         "PERFORM_RELEASE": "release",
         "RELEASE_VERSION": "'"$RELEASE_VERSION"'",
-        "DEVELOPMENT_VERSION": "'"$DEVELOPMENT_VERSION"'"
+        "DEVELOPMENT_VERSION": "'"$DEVELOPMENT_VERSION"'",
+        "CLOSE_SONATYPE_STAGING": "1"
      }
    }
   }
