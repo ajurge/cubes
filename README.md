@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/ajurge/cubes.svg?branch=master)](https://travis-ci.org/ajurge/cubes)
 [![codecov](https://codecov.io/gh/ajurge/cubes/branch/master/graph/badge.svg)](https://codecov.io/gh/ajurge/cubes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Download](https://api.bintray.com/packages/ajurge/com.bipinet.cubes/cubes/images/download.svg)](https://bintray.com/ajurge/com.bipinet.cubes/cubes/_latestVersion)  
+[![Bintray](https://api.bintray.com/packages/ajurge/com.bipinet.cubes/cubes/images/download.svg)](https://bintray.com/ajurge/com.bipinet.cubes/cubes/_latestVersion)
+[![Maven Central](https://img.shields.io/maven-central/v/com.bipinet.cubes/cubes.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.bipinet.cubes%22)  
 
 # Happy Cube Solver
  See [Happy Cube website](http://www.happycube.com/) and [Wikipedia](https://en.wikipedia.org/wiki/Happy_Cube) 
