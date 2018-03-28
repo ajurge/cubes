@@ -35,6 +35,10 @@ BODY='{
 
 BINTRAY_REST_API_URL="https://api.bintray.com/maven_central_sync/ajurge/com.bipinet.cubes/cubes/versions/$RELEASE_VERSION"
 
+echo "**************************************************************************"
+echo "INFO: Syncing version $RELEASE_VERSION with Sonatype OSS and Maven Central"
+echo "**************************************************************************"
 echo $(curl --user $BINTRAY_USER:$BINTRAY_API_KEY -s -X POST \
    -d "$BODY" \
    "$BINTRAY_REST_API_URL")
+echo "**************************************************************************"
